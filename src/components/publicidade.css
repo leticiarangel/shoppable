@@ -1,0 +1,92 @@
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #686868;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.principal {
+    background: #686868;
+    width: 85%;
+}
+.publi {
+    display: inline-block;
+}
+.title{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    opacity: 0.8;
+    text-align: left;
+    padding-top: 2px;
+    margin-left: 1rem;
+}
+.promo {
+    border-radius: 10px;
+    max-width: 290px;
+    max-height: 290px;
+    width: auto;
+    height: auto;
+
+}
+.button_cupom {
+    display: inline-block;
+}
+.button {
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    display: block;
+    box-shadow: 2px 4px 6px black;
+    margin-bottom: 10px;
+}
+.link {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    color: #00C46D;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6em;
+    color: white;
+    text-align: left;
+    margin-left: 1rem;
+}
+.logo_img_1 {
+    display: inline-flex;
+}
+.logo_img {
+    display: flex;
+    margin: 0.5rem;
+    max-width: 60px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+}
